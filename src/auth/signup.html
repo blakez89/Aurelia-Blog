@@ -1,0 +1,10 @@
+<template>
+  <div class="p-4 mb-3 bg-light rounded">
+      <h4 class="font-italic">Signup</h4>
+      <h2 class="font-italic" if.bind="success">Signup Successful</h4>
+      <form submit.delegate="signup()">
+          <input type="text" value.bind="name">
+          <button type="submit">Submit</button>
+        </form>
+    </div>
+</template>
